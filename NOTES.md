@@ -16,3 +16,8 @@
     - Amd made the x64 architecture and Intel uses it too so that why there's various names for it
       because intel didn't want to name their chips amdXYZ
 - Software versioning: major.minor.patch
+
+### References
+- [Create Your Own Kernel In C](https://www.codeproject.com/Articles/1225196/Create-Your-Own-Kernel-In-C-2)
+- [What is a Kernel?](https://en.wikipedia.org/wiki/Kernel_(operating_system))
+- [osdev.org](https://osdev.org/Main_Page)
