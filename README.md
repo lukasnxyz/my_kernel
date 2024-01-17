@@ -9,4 +9,4 @@ $ ./build.sh
 $ ./run.sh
 ```
 
-### [Notes](NOTES.md)
+[Notes](NOTES.md)

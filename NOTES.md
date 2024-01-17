@@ -1,10 +1,33 @@
 ## Notes
+See [Creating and Operating System](https://osdev.org/Creating_an_Operating_System)
 
-### Kernel todo
-- Makefile
-- putc()
-- putchar()
-- puts()
+### Building
+See [GCC Cross-Compiler](https://osdev.org/GCC_Cross-Compiler)
+
+### Todo
+1. Setting up project (Makefile, etc.)
+2. Calling global constructors
+3. Terminal support
+4. Multiboot
+5. Implement Global Descriptor Table (GDT)
+6. Memory Management
+7. Interrupts
+8. Multithreaded Kernel
+9. Keyboard
+10. Internal Kernel Debugger
+11. Filesystem Support
+
+1. User space
+2. Program loading
+3. System calls
+4. OS Specific Toolchain
+5. C library
+6. Fork and execute
+7. Shell
+
+### Goal
+1. Get to a working user shell
+2. From there continue hacking on kernel, porting, extending, ...
 
 ### General things to remember
 - Magic: is a fixed hexadecimal number to identify the head (starting point) of the kernel to be
@@ -17,7 +40,11 @@
       because intel didn't want to name their chips amdXYZ
 - Software versioning: major.minor.patch
 
-### References
-- [Create Your Own Kernel In C](https://www.codeproject.com/Articles/1225196/Create-Your-Own-Kernel-In-C-2)
-- [What is a Kernel?](https://en.wikipedia.org/wiki/Kernel_(operating_system))
+## References
 - [osdev.org](https://osdev.org/Main_Page)
+
+### What is?
+- [What is a Kernel?](https://en.wikipedia.org/wiki/Kernel_(operating_system))
+
+### Guides
+- [Create Your Own Kernel In C](https://www.codeproject.com/Articles/1225196/Create-Your-Own-Kernel-In-C-2)
